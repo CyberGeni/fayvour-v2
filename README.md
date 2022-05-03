@@ -1,8 +1,8 @@
-![image](https://user-images.githubusercontent.com/70205370/149639136-14df2234-efd4-4844-84db-b54fc49c947b.png)
+![image](/assets/fayvour.png)
 
 # fayvour
 
-> portfolio site for UI/UX designer, Fayvour Ajefu
+> version II portfolio site for UI/UX designer, Fayvour Ajefu
 
 ## Build Setup
 
