@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header class="font-['Cabinet_Grotesk']">
         <router-link to="/">fayv.</router-link>
         <nav>
             <ul>
@@ -16,16 +16,11 @@ export default {
 }
 </script>
 <style scoped>
-    @font-face {
-        font-family: Trap;
-        src: url(/assets/fonts/Trap_/Trap-Regular.otf);
-    }
     header {
         display: flex;
         justify-content: space-between;
         align-items: center;
         color: white;
-        font-family: Trap;
         font-size: 18px;
         height: 15vh;
         position: relative;
