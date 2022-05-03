@@ -1,4 +1,4 @@
-![image](/assets/fayvour.png)
+![image](src/assets/fayvour.png)
 
 # fayvour
 
