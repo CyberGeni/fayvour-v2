@@ -2,7 +2,7 @@
 
 # fayvour
 
-> version II portfolio site for UI/UX designer, Fayvour Ajefu
+> version II portfolio site for Product Designer, Fayvour Ajefu
 
 ## Build Setup
 
