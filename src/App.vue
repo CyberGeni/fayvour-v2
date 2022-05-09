@@ -59,6 +59,7 @@ export default {
   }
   footer {
     display: flex;
+
     align-items: baseline;
     width: 100%;
     margin: 3em 0;
