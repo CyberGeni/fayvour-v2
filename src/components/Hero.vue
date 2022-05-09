@@ -18,22 +18,6 @@
     </main>
 </template>
 <style scoped>
-.bg-decor {
-  width: 100%;
-
-        right: 10px;
-        text-align: right;
-
-}
-.bg-decor span {
-        background: -webkit-linear-gradient(180deg, #ffffff 16.21%, #8a8a8a 41.72%, #ffffff 81.21%);
-        color: rgb(27, 25, 25);
-        /* the transparent content with just border thingy */
-        -webkit-background-clip: text;
-        -webkit-text-stroke: 4px transparent;
-        opacity: 0.1;
-    }
-
 #creative {
   position: absolute;
   right: 10px;

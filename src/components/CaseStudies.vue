@@ -1,5 +1,5 @@
 <template>
-    <main class="mt-36">
+    <main class="mt-36 mb-24 font-['Cabinet_Grotesk']">
         <div class="my-4 mb-24">
             <h1 class="text-xl text-neutral-400 font-['Sentient'] ">Featured Projects</h1>
             <div>
@@ -18,13 +18,22 @@
                 </svg>
             </div>
         </div>
-        <section v-for="casestudy in cases" :key="casestudy.id">
-            <router-link :to="casestudy.link" class="">
-                <img class="" :src="casestudy.image" :alt="casestudy.description" />
-                <h2>{{casestudy.title}}</h2>
-                <p>{{casestudy.description}}</p>    
-            </router-link>
-        </section>
+        <div class="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-3 mx-auto gap-24">
+            <section  v-for="casestudy in cases" :key="casestudy.id">
+                <router-link :to="casestudy.link" class=""> 
+                    <img class="" :src="casestudy.image" :alt="casestudy.description" />
+                    <div class="flex justify-between items-center my-5">
+                        <h2 class="text-neutral-200 text-4xl md:text-5xl">{{casestudy.title}}</h2>
+                        <span class="text-white bg-neutral-500 rounded-full px-5 py-1 text-sm">{{casestudy.tag}}</span>
+                    </div>
+                    <div class="flex">
+                        <p class="text-neutral-400 mr-8">{{casestudy.description}}</p> 
+                        <img class="w-10" src="src/assets/arrow.svg" alt="">
+                    </div>  
+                </router-link>
+            </section>
+        </div>
+        
     </main>
 </template>
 <script>

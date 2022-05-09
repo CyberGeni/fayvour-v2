@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="w-4/5 mx-auto">
       <app-header></app-header>
       <router-view></router-view>
       <hr>
@@ -55,10 +55,7 @@ export default {
     z-index: -100;
     overflow-x: hidden;
   }
-  main {
-    width: 90%;
-    margin: auto;
-  }
+
   hr {
     opacity: 0.2;
   }
