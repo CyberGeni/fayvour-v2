@@ -10,6 +10,13 @@ import About from './components/About.vue'
 import Resume from './components/Resume.vue'
 import Riskfree from './components/case-studies/riskfree/RiskFree.vue'
 import Spotify from './components/case-studies/spotify/Spotify.vue'
+
+// Get length of character path animate with SVG and CSS
+const creative = document.querySelectorAll("#creative path");
+for(let i = 0; i<creative.length; i++) {
+  console.log(`Letter ${i} is ${creative[i].getTotalLength()}`);
+}
+
 // Router init
 Vue.use(VueRouter);
 const router = new VueRouter({

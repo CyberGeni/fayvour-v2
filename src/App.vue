@@ -4,7 +4,6 @@
       <router-view></router-view>
       <hr>
       <footer>
-        
         <section>
           <h1 class="idea">have an idea?</h1>
           <p>lets chat about it.</p>
@@ -73,27 +72,25 @@ export default {
   }
   
   footer h1.idea {
-    font-family: 'Trap' !important;
     font-size: 3em;
-    background: -webkit-linear-gradient(180deg, #A8FFBB 16.21%, #6B81F0 41.72%, #CC48ED 81.21%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0.2em 0;
     width: fit-content;
   }
   footer p {
-    font-family: 'Circular';
+
     color: white;
     font-size: 20px;
   }
   footer h4 {
-    font-family: 'Circular';
+
     color: white;
     font-size: 18px;
     margin-bottom: 0.8em;
   }
   footer li, footer li h4 {
-    font-family: 'Circular';
+
     list-style: none;
     color: white;
   }

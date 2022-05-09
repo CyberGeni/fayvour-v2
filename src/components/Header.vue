@@ -5,6 +5,7 @@
             <ul>
                 <router-link to="/about"><li>about me.</li></router-link>
                 <router-link to="/resume"><li>resume.</li></router-link>
+                <a target="_blank" href="https://fayvouraj.medium.com/"><li>blog.</li></a>
             </ul>
         </nav>
     </header>
