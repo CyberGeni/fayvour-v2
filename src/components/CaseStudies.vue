@@ -1,7 +1,7 @@
 <template>
     <main class="mt-36 mb-24 font-['Cabinet_Grotesk']">
         <div class="my-4 mb-24">
-            <h1 class="text-xl text-neutral-400 font-['Cabinet_Grotesk'] ">Featured Project</h1>
+            <h1 class="text-2xl text-neutral-400 font-['Cabinet_Grotesk'] ">Featured Projects</h1>
             <div class="w-10">
                 <svg class="hidden md:block" width="719" id="case-study" height="101" viewBox="0 0 719 101" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M26.592 99.28C35.68 99.28 45.024 93.776 51.424 84.816L49.376 81.616C43.36 87.376 36.576 90.832 30.944 90.832C21.6 90.832 15.84 82.896 15.84 70.096C15.84 53.328 25.44 38.736 36.704 38.736C38.24 38.736 39.392 38.992 40.544 39.504L48.608 50.512H51.68L56.16 39.248C50.016 34.768 43.744 32.464 36.448 32.464C16.736 32.464 1.888 49.488 1.888 71.888C1.888 88.528 11.616 99.28 26.592 99.28Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1_6_16)"/>

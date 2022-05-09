@@ -3,12 +3,12 @@
       <app-header></app-header>
       <router-view></router-view>
       <hr>
-      <footer>
+      <footer class="font-['Cabinet_Grotesk']">
         <section>
-          <h1 class="font-['Cabinet_Grotesk'] text-5xl text-neutral-300">Have an idea?</h1>
+          <h1 class=" text-5xl text-neutral-300">Have an idea?</h1>
           <p class="text-neutral-400">lets <a href="mailto:fayvouraj@gmail.com" target="_blank" class="text-white underline decoration-wavy"> chat </a> about it.</p>
         </section>
-        <section class="text-neutral-400">
+        <section class="text-neutral-400 grid grid-cols-1">
           <ul>
             <li><a href="https://behance.net/favourajefu">be.</a></li>
             <li><a href="https://dribbble.com/fayvour">dr.</a></li>
@@ -59,17 +59,13 @@ export default {
   }
   footer {
     display: flex;
-    flex-wrap: wrap;
     align-items: baseline;
-    flex: 1 1;
     width: 100%;
     margin: 3em 0;
   }
   
   footer h1.idea {
     font-size: 3em;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     margin: 0.2em 0;
     width: fit-content;
   }
