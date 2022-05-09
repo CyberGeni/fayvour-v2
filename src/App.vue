@@ -10,14 +10,12 @@
         </section>
         <section class="text-neutral-400">
           <ul>
-            <h4>playground</h4>
-            <li><a href="https://behance.net/favourajefu">behance</a></li>
-            <li><a href="https://dribbble.com/fayvour">dribbble</a></li>
+            <li><a href="https://behance.net/favourajefu">be.</a></li>
+            <li><a href="https://dribbble.com/fayvour">dr.</a></li>
           </ul>
           <ul>
-            <h4>socials</h4>
-            <li><a href="https://twitter.com/fayvouraj">twitter</a></li>
-            <li><a href="https://linkedin.com/in/fayvouraj">linkedin</a></li>
+            <li><a href="https://twitter.com/fayvouraj">tw.</a></li>
+            <li><a href="https://linkedin.com/in/fayvouraj">li.</a></li>
           </ul>
         </section>
       </footer>
