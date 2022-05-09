@@ -5,10 +5,10 @@
       <hr>
       <footer>
         <section>
-          <h1 class="idea">have an idea?</h1>
-          <p>lets chat about it.</p>
+          <h1 class="font-['Cabinet_Grotesk'] text-5xl text-neutral-300">Have an idea?</h1>
+          <p class="text-neutral-400">lets <a href="mailto:fayvouraj@gmail.com" target="_blank" class="text-white underline decoration-wavy"> chat </a> about it.</p>
         </section>
-        <section>
+        <section class="text-neutral-400">
           <ul>
             <h4>playground</h4>
             <li><a href="https://behance.net/favourajefu">behance</a></li>
@@ -77,22 +77,20 @@ export default {
   }
   footer p {
 
-    color: white;
     font-size: 20px;
   }
   footer h4 {
 
-    color: white;
     font-size: 18px;
     margin-bottom: 0.8em;
   }
   footer li, footer li h4 {
 
     list-style: none;
-    color: white;
+
   }
   footer li a {
-    color: white;
+
     text-decoration: none;
     line-height: 35px;
   }
