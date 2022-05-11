@@ -12,9 +12,9 @@
             <h1 class="text-white text-3xl mt-7 mb-3">drop by, say hi</h1>
             <nav class="text-neutral-400 text-lg space-x-6">
               <a class="underline decoration-2 underline-offset-2 hover:text-sky-600 transition-all" href="">tw.</a>
-              <a class="underline decoration-2 underline-offset-2 hover:text-white transition-all" href="">li.</a>
+              <a class="underline decoration-2 underline-offset-2 hover:text-sky-800 transition-all" href="">li.</a>
               <a class="underline decoration-2 underline-offset-2 hover:text-white transition-all" href="">be.</a>
-              <a class="underline decoration-2 underline-offset-2 hover:text-white transition-all" href="">dr.</a>
+              <a class="underline decoration-2 underline-offset-2 hover:text-pink-600 transition-all" href="">dr.</a>
             </nav>
           </div>
           <div class="text-neutral-400 text-xs md:text-right">
