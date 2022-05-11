@@ -4,20 +4,25 @@
       <router-view></router-view>
       <hr>
       <footer class="font-['Cabinet_Grotesk']">
-        <section>
-          <h1 class=" text-5xl text-neutral-300">Have an idea?</h1>
-          <p class="text-neutral-400">lets <a href="mailto:fayvouraj@gmail.com" target="_blank" class="text-white underline decoration-wavy"> chat </a> about it.</p>
+        <h1 class="text-white text-4xl my-8">Got an interesting project idea? I can help you.</h1>
+        <section class="md:flex items-end justify-between">
+          <div>
+            <h1 class="text-white text-3xl ">mail me</h1>
+            <a class="text-neutral-400 text-lg" href="mailto:hey@fayvouraj.com">hey@fayvouraj.com</a>
+            <h1 class="text-white text-3xl mt-7 mb-3">drop by, say hi</h1>
+            <nav class="text-neutral-400 text-lg space-x-6">
+              <a class="underline decoration-2 underline-offset-2 hover:text-sky-600 transition-all" href="">tw.</a>
+              <a class="underline decoration-2 underline-offset-2 hover:text-white transition-all" href="">li.</a>
+              <a class="underline decoration-2 underline-offset-2 hover:text-white transition-all" href="">be.</a>
+              <a class="underline decoration-2 underline-offset-2 hover:text-white transition-all" href="">dr.</a>
+            </nav>
+          </div>
+          <div class="text-neutral-400 text-xs md:text-right">
+            <p>designed by yours truly</p>
+            <p>brought to life by your friendly neighbourhood <a class="underline decoration-2 underline-offset-2" href="https://linktr.ee/cybergenie">cyberGenie</a></p>
+          </div>
         </section>
-        <section class="text-neutral-400 grid grid-cols-1">
-          <ul>
-            <li><a href="https://behance.net/favourajefu">be.</a></li>
-            <li><a href="https://dribbble.com/fayvour">dr.</a></li>
-          </ul>
-          <ul>
-            <li><a href="https://twitter.com/fayvouraj">tw.</a></li>
-            <li><a href="https://linkedin.com/in/fayvouraj">li.</a></li>
-          </ul>
-        </section>
+        <p class="text-center text-sm text-neutral-400 my-4 mb-8 font-bold">&copy;2022 portfolio</p>
       </footer>
   </main>
 </template>
@@ -57,63 +62,5 @@ export default {
   hr {
     opacity: 0.2;
   }
-  footer {
-    display: flex;
 
-    align-items: baseline;
-    width: 100%;
-    margin: 3em 0;
-  }
-  
-  footer h1.idea {
-    font-size: 3em;
-    margin: 0.2em 0;
-    width: fit-content;
-  }
-  footer p {
-
-    font-size: 20px;
-  }
-  footer h4 {
-
-    font-size: 18px;
-    margin-bottom: 0.8em;
-  }
-  footer li, footer li h4 {
-
-    list-style: none;
-
-  }
-  footer li a {
-
-    text-decoration: none;
-    line-height: 35px;
-  }
-  footer section:nth-child(1) {
-    width: 50%;
-  }
-  footer section:nth-child(2) {
-    display: flex;
-    width: 50%;
-  }
-  footer section:nth-child(2) ul {
-    width: 45%;
-  }
-  @media (max-width: 500px) {
-    footer {
-      flex-direction: column;
-      width: 100%;
-    }
-    footer section:nth-child(1) {
-    width: 100%;
-  }
-  footer section:nth-child(2) {
-    display: flex;
-    width: 100%;
-    margin-top: 1.7em;
-  }
-  footer section:nth-child(2) ul {
-    width: 100%;
-  }
-  }
 </style>
