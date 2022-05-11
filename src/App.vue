@@ -17,14 +17,15 @@
               <a class="underline decoration-2 underline-offset-2 hover:text-pink-600 transition-all" href="">dr.</a>
             </nav>
           </div>
-          <div class="text-neutral-400 text-xs md:text-right">
+          <div class="text-neutral-400 text-xs mt-4 text-right">
             <p>designed by yours truly</p>
-            <p>brought to life by your friendly neighbourhood <a class="underline decoration-2 underline-offset-2" href="https://linktr.ee/cybergenie">cyberGenie</a></p>
+            <p>devved by your friendly neighbourhood <a class="underline decoration-2 underline-offset-2" href="https://linktr.ee/cybergenie">cyberGenie</a></p>
           </div>
         </section>
         <p class="text-center text-sm text-neutral-400 my-4 mb-8 font-bold">&copy;2022 portfolio</p>
       </footer>
   </main>
+
 </template>
 
 <script>
