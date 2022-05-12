@@ -33,7 +33,7 @@
             </div>
         </div>
         <div class=" grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-3 mx-auto gap-24">
-            <section class="skewElem"  v-for="casestudy in cases" :key="casestudy.id">
+            <section class="skewElem lazy"  v-for="casestudy in cases" :key="casestudy.id">
                 <router-link :to="casestudy.link" class=""> 
                     <img class="skewElem" :src="casestudy.image" :alt="casestudy.description" />
                     <div class="flex justify-between items-center my-5">

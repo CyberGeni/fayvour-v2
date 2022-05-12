@@ -3,9 +3,9 @@
         <router-link to="/">fayv.</router-link>
         <nav>
             <ul>
-                <router-link to="/about"><li>about me.</li></router-link>
-                <router-link to="/resume"><li>resume.</li></router-link>
-                <a target="_blank" href="https://fayvouraj.medium.com/"><li>blog.</li></a>
+                <li><router-link to="/about">about me.</router-link></li>
+                <li><router-link to="/resume">resume.</router-link></li>
+                <li><a target="_blank" href="https://fayvouraj.medium.com/">blog.</a></li>
             </ul>
         </nav>
     </header>

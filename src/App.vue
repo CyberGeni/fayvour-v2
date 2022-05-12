@@ -11,10 +11,10 @@
             <a class="text-neutral-400 text-lg" href="mailto:hey@fayvouraj.com" target="_blank">hey@fayvouraj.com</a>
             <h1 class="text-white text-3xl mt-8 mb:mt-12 mb-3">drop by, say hi</h1>
             <nav class="text-neutral-400 text-lg space-x-6">
-              <a class="underline decoration-2 underline-offset-2 hover:text-sky-600 transition-all" href="" target="_blank">tw.</a>
-              <a class="underline decoration-2 underline-offset-2 hover:text-sky-800 transition-all" href="" target="_blank">li.</a>
-              <a class="underline decoration-2 underline-offset-2 hover:text-white transition-all" href="" target="_blank">be.</a>
-              <a class="underline decoration-2 underline-offset-2 hover:text-pink-600 transition-all" href="" target="_blank">dr.</a>
+              <a class="underline decoration-2 underline-offset-2 hover:text-sky-600 transition-all" href="https://twitter.com/fayvouraj" target="_blank">tw.</a>
+              <a class="underline decoration-2 underline-offset-2 hover:text-sky-800 transition-all" href="https://twitter.com/fayvouraj" target="_blank">li.</a>
+              <a class="underline decoration-2 underline-offset-2 hover:text-white transition-all" href="https://twitter.com/fayvouraj" target="_blank">be.</a>
+              <a class="underline decoration-2 underline-offset-2 hover:text-pink-600 transition-all" href="https://twitter.com/fayvouraj" target="_blank">dr.</a>
             </nav>
           </div>
           <div class="text-neutral-400 text-xs mt-4 text-right">
