@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "gsap": "^3.10.4",
     "vue": "^2.5.11",
     "vue-router": "^3.5.3"
   },

@@ -2,7 +2,7 @@
     <main class="mt-36 mb-24 font-['Cabinet_Grotesk']">
         <div class="my-4 mb-24">
             <h1 class="text-2xl text-neutral-400 font-['Cabinet_Grotesk'] ">Featured Projects</h1>
-            <div class="w-10">
+            <div data-aos="fade-up" class="w-10">
                 <svg class="hidden md:block" width="719" id="case-study" height="101" viewBox="0 0 719 101" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M26.592 99.28C35.68 99.28 45.024 93.776 51.424 84.816L49.376 81.616C43.36 87.376 36.576 90.832 30.944 90.832C21.6 90.832 15.84 82.896 15.84 70.096C15.84 53.328 25.44 38.736 36.704 38.736C38.24 38.736 39.392 38.992 40.544 39.504L48.608 50.512H51.68L56.16 39.248C50.016 34.768 43.744 32.464 36.448 32.464C16.736 32.464 1.888 49.488 1.888 71.888C1.888 88.528 11.616 99.28 26.592 99.28Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1_6_16)"/>
                     <path d="M78.275 99.28C88.899 99.28 97.859 90.064 105.795 69.968L106.947 70.608C103.747 89.424 103.363 92.368 103.363 94.288C103.363 96.976 105.027 99.28 108.483 99.28C113.475 99.28 120.131 95.184 130.755 84.688L129.475 81.488L116.547 88.4L116.035 87.888L123.459 33.872L121.155 32.08L115.779 34.896C110.147 33.232 105.923 32.464 101.955 32.464C79.555 32.464 60.995 52.048 60.995 76.496C60.995 90.576 67.779 99.28 78.275 99.28ZM83.267 90.32C77.891 90.32 74.691 84.944 74.691 75.984C74.691 56.528 86.595 40.272 100.547 37.968C103.619 38.608 106.691 39.76 110.019 41.552C105.283 67.024 92.355 90.32 83.267 90.32Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1_6_16)"/>
@@ -32,13 +32,13 @@
                 </svg>
             </div>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-3 mx-auto gap-24">
-            <section  v-for="casestudy in cases" :key="casestudy.id">
+        <div class=" grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-3 mx-auto gap-24">
+            <section class="skewElem"  v-for="casestudy in cases" :key="casestudy.id">
                 <router-link :to="casestudy.link" class=""> 
-                    <img class="" :src="casestudy.image" :alt="casestudy.description" />
+                    <img class="skewElem" :src="casestudy.image" :alt="casestudy.description" />
                     <div class="flex justify-between items-center my-5">
-                        <h2 class="text-neutral-200 text-4xl md:text-5xl">{{casestudy.title}}</h2>
-                        <span class="text-white bg-neutral-500 rounded-full px-5 py-1 text-sm">{{casestudy.tag}}</span>
+                        <h2 class="text-neutral-200 text-3xl md:text-4xl md:text-5xl">{{casestudy.title}}</h2>
+                        <span class="text-white bg-neutral-500 rounded-full px-3 sm:px-4 md:px-5 py-1 text-sm">{{casestudy.tag}}</span>
                     </div>
                     <div class="flex">
                         <p class="text-neutral-400 mr-8">{{casestudy.description}}</p> 
