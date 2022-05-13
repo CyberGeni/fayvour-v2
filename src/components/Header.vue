@@ -1,41 +1,39 @@
 <template>
-    <header class="font-['Cabinet_Grotesk']">
+    <header class="relative font-['Cabinet_Grotesk'] z-100 h-28 flex justify-between items-center text-white font-lg">
         <router-link to="/">fayv.</router-link>
-        <nav>
-            <ul>
-                <li><router-link to="/about">about me.</router-link></li>
-                <li><router-link to="/resume">resume.</router-link></li>
-                <li><a target="_blank" href="https://fayvouraj.medium.com/">blog.</a></li>
+        <nav :class="[isActive ? 'block':'hidden']" class=" sm:flex absolute sm:relative">
+            <ul class="text-center space-y-6 sm:space-y-0 flex">
+                <li @click="isActive = !isActive" class="">
+                    <router-link to="/about">about me.</router-link>
+                </li>
+                <li @click="isActive = !isActive" class="sm:ml-6">
+                    <router-link to="/resume">resume.</router-link>
+                </li>
+                <li @click="isActive = !isActive" class="sm:ml-6">
+                    <a class="text-white " target="_blank" href="https://fayvouraj.medium.com/">blog.</a>
+                </li>
             </ul>
         </nav>
+        <div @click="toggle" class="space-y-1 sm:hidden flex flex-col items-end toggleButton">
+            <div class="h-[1.7px] w-6 bg-white rounded-xl"></div>
+            <div class="h-[1.7px] w-5 bg-white rounded-xl"></div>
+            <div class="h-[1.7px] w-4 bg-white rounded-xl"></div>
+        </div>        
     </header>
 </template>
 
 <script>
 export default {
-    
+    data() {
+        return {
+           isActive: false
+        }
+    },
+    methods: {
+        toggle() {
+            this.isActive = !this.isActive;
+        }
+    },
 }
 </script>
-<style scoped>
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        color: white;
-        font-size: 18px;
-        height: 15vh;
-        position: relative;
-        z-index: 100;
-    }
-    nav ul {
-        display: flex;
-    }
-    li {
-        list-style: none;
-        margin-left: 2em;
-    }
-    a {
-        color: white;
-        text-decoration: none;
-    }
-</style>
+

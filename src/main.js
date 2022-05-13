@@ -89,8 +89,7 @@ ScrollTrigger.create({
 // make the right edge "stick" to the scroll bar. force3D: true improves performance
 gsap.set(".skewElem", {transformOrigin: "center center", force3D: true});
 
-
-//lazt load images 
+//lazy load images 
 ScrollTrigger.config({ limitCallbacks: true });
 
 gsap.utils.toArray(".lazy").forEach(image => {
@@ -128,3 +127,5 @@ gsap.utils.toArray(".lazy").forEach(image => {
 		onEnterBack: loadImage // make sure it works in either direction
 	});
 });
+
+
