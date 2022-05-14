@@ -1,7 +1,7 @@
 <template>
     <header class="relative font-['Cabinet_Grotesk'] z-100 h-28 flex justify-between items-center text-white font-lg">
         <router-link to="/">fayv.</router-link>
-        <nav :class="[isActive ? 'block':'hidden']" class=" sm:flex absolute sm:relative">
+        <nav :class="[isActive ? 'block':'hidden']" class=" sm:flex absolute sm:relative overflow-hidden">
             <ul class="text-center space-y-6 sm:space-y-0 flex">
                 <li @click="isActive = !isActive" class="">
                     <router-link to="/about">about me.</router-link>
