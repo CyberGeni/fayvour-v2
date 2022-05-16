@@ -1,0 +1,30 @@
+<nav :class="[isActive ? 'block':'hidden']" class="sm:flex absolute sm:relative overflow-hidden">
+            <ul class="text-center space-y-6 sm:space-y-0 flex flex-col sm:flex-row">
+                <li @click="isActive = !isActive" class="">
+                    <router-link to="/about">about me.</router-link>
+                </li>
+                <li @click="isActive = !isActive" class="sm:ml-6">
+                    <router-link to="/resume">resume.</router-link>
+                </li>
+                <li @click="isActive = !isActive" class="sm:ml-6">
+                    <a class="text-white " target="_blank" href="https://fayvouraj.medium.com/">blog.</a>
+                </li>
+            </ul>
+        </nav>
+        <div @click="toggle" class="space-y-1 sm:hidden flex flex-col items-end toggleButton">
+            <div class="h-[1.7px] w-6 bg-white rounded-xl"></div>
+            <div class="h-[1.7px] w-5 bg-white rounded-xl"></div>
+            <div class="h-[1.7px] w-4 bg-white rounded-xl"></div>
+        </div>
+
+
+        data() {
+            return {
+               isActive: false
+            }
+        },
+        methods: {
+            toggle() {
+                this.isActive = !this.isActive;
+            }
+        },

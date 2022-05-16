@@ -35,9 +35,22 @@
     <!-- TailwindCSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+
+    
   </head>
   <body>
     <div id="app"></div>
     <script src="/dist/build.js"></script>
+    <script>
+      const hamburger = document.querySelector('.hamburger');
+      function openNavbar() {
+        
+        hamburger.classList.remove('hidden');
+        animate__fadeInRightBig
+      }
+      function closeNavbar() {
+        hamburger.classList.add('hidden');
+      }
+    </script>
   </body>
 </html>
