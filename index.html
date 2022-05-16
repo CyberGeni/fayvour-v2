@@ -44,12 +44,13 @@
     <script>
       const hamburger = document.querySelector('.hamburger');
       function openNavbar() {
-        
         hamburger.classList.remove('hidden');
-        animate__fadeInRightBig
+        hamburger.classList.add('animate__fadeInRightBig');
+        hamburger.classList.remove('animate__fadeOutRightBig')
       }
       function closeNavbar() {
         hamburger.classList.add('hidden');
+        hamburger.classList.add('animate__fadeOutRightBig');
       }
     </script>
   </body>

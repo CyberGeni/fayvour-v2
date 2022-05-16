@@ -1,14 +1,13 @@
 <template>
     <header class="relative font-['Cabinet_Grotesk'] z-100 h-28 flex justify-between items-center text-white font-lg">
         <router-link to="/">fayv.</router-link>
-        <nav  class="hamburger hidden sm:flex items-center justify-center relative sm:relative overflow-hidden bg-neutral-800 bg-image[url('src/assets/noise.svg)] h-screen top-0 left-0 w-screen mt-auto -ml-32 mr-[-7.5em] ">
-            <ul class="text-center space-y-6 h-screen sm:space-y-0 flex flex-col items-center justify-center sm:flex-row">
-                <li onclick="closeNavbar()" class="absolute top-16 right-16 ">
+        <nav  class="hamburger cursor-pointer animate__animated hidden sm:flex items-center justify-center relative overflow-hidden bg-neutral-800 sm:bg-transparent bg-image[url('src/assets/noise.svg)] h-screen sm:h-fit top-0 left-0 w-screen sm:w-fit mt-auto sm:mt-0 -ml-32 mr-[-7.5em] sm:mx-0">
+            <ul class="overflow-hidden text-center space-y-6 sm:space-y-0 h-screen sm:h-fit  flex flex-col sm:flex-row items-center justify-center ">
+                <li onclick="closeNavbar()" class="absolute top-16 right-20 sm:hidden">
                     <div class="relative">
                         <div class="h-[1.7px] w-6 bg-white rounded-xl rotate-45 absolute"></div>
                         <div class="h-[1.7px] w-6 bg-white rounded-xl -rotate-45 absolute"></div>
                     </div>
-                    
                 </li>
                 <li class="">
                     <router-link to="/about">about me.</router-link>
@@ -30,9 +29,5 @@
 </template>
 
 <script>
-
-    
-        
-    
 
 </script>
