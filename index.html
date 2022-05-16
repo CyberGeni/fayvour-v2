@@ -42,6 +42,10 @@
     <div id="app"></div>
     <script src="/dist/build.js"></script>
     <script>
+      window.onload = function(){ document.querySelector(".preloader").style.display = "none"; }   
+
+
+      
       const hamburger = document.querySelector('.hamburger');
       function openNavbar() {
         hamburger.classList.remove('hidden');
