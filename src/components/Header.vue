@@ -9,13 +9,13 @@
                         <div class="h-[1.7px] w-6 bg-white rounded-xl -rotate-45 absolute"></div>
                     </div>
                 </li>
-                <li class="">
+                <li onclick="closeNavbar()" class="">
                     <router-link to="/about">about me.</router-link>
                 </li>
-                <li class="sm:ml-6">
+                <li onclick="closeNavbar()" class="sm:ml-6">
                     <router-link to="/resume">resume.</router-link>
                 </li>
-                <li class="sm:ml-6">
+                <li onclick="closeNavbar()" class="sm:ml-6">
                     <a class="text-white " target="_blank" href="https://fayvouraj.medium.com/">blog.</a>
                 </li>
             </ul>
