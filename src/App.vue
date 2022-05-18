@@ -1,7 +1,10 @@
 <template>
   <main class="w-4/5 mx-auto">
       <app-header></app-header>
-      <router-view></router-view>
+      <transition name="slide">
+        <router-view></router-view>
+      </transition>
+      
       <hr>
       <footer class="font-['Cabinet_Grotesk']">
         <h1 class="text-white text-4xl mt-16 md:mt-24 mb-10 md:mb-16">Got an interesting project idea? I can help you.</h1>

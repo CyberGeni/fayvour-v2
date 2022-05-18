@@ -35,6 +35,14 @@ const router = new VueRouter({
     {path: '/riskfree', component: Riskfree},
     {path: '/spotify', component: Spotify},
   ],
+  scrollBehavior (to, from, savedPosition) {
+    if (to.hash) {
+      return {
+        selector: to.hash,
+        behavior: 'smooth',
+      }
+    }
+  },
   mode : 'history'
 })
 
