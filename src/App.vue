@@ -1,6 +1,10 @@
 <template>
   <main class="w-4/5 mx-auto">
+      <!-- Preloader -->
+      <pre-loader></pre-loader>
+
       <app-header></app-header>
+      
       <transition name="slide">
         <router-view></router-view>
       </transition>
@@ -22,7 +26,7 @@
           </div>
           <div class="text-neutral-400 text-xs mt-4 text-right">
             <p>designed by yours truly</p>
-            <p>devved by your friendly neighbourhood <a class="underline decoration-2 underline-offset-2" href="https://linktr.ee/cybergenie" target="_blank">cyberGenie</a></p>
+            <p>devved by your friendly neighborhood <a class="underline decoration-2 underline-offset-2" href="https://linktr.ee/cybergenie" target="_blank">cyberGenie</a></p>
           </div>
         </section>
         <p class="text-center text-sm text-neutral-400 my-4 mb-8 font-bold">&copy;2022 portfolio</p>
@@ -33,6 +37,8 @@
 
 <script>
 import Header from './components/Header.vue'
+import Preloader from './components/Preloader.vue'
+
 export default {
   name: 'app',
   data () {
@@ -41,6 +47,7 @@ export default {
   },
   components: {
     'app-header': Header,
+    'pre-loader': Preloader
   }
 }
 </script>
@@ -61,10 +68,11 @@ export default {
     position: relative;
     z-index: -100;
     overflow-x: hidden;
+    overflow: hidden;
   }
 
   hr {
     opacity: 0.2;
   }
-
+  
 </style>

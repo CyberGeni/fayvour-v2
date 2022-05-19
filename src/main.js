@@ -21,6 +21,25 @@ for(let i = 0; i<casestudy.length; i++) {
   console.log(`Letter ${i} is ${casestudy[i].getTotalLength()}`);
 }
 
+// Preloader animation
+window.onload = function(){ 
+//  const preloader = document.querySelector('.preloader')
+  preloader.classList.add('animate__animated')
+//  preloader.classList.add('animate__fadeOut')
+
+  document.querySelector('body').style.overflowY = 'scroll';
+}   
+// Hamburger menu
+const hamburger = document.querySelector('.hamburger');
+function openNavbar() {
+  hamburger.classList.remove('hidden');
+  hamburger.classList.add('animate__fadeInRightBig');
+  hamburger.classList.remove('animate__fadeOutRightBig')
+}
+function closeNavbar() {
+  hamburger.classList.add('animate__fadeOutRightBig');
+}
+
 
 // Router init
 Vue.use(VueRouter);
@@ -97,8 +116,4 @@ ScrollTrigger.create({
 // make the right edge "stick" to the scroll bar. force3D: true improves performance
 gsap.set(".skewElem", {transformOrigin: "center center", force3D: true});
 
-// Hamburger Menu
-const hamburger = document.querySelector('.hamburger');
-        function openNavbar() {
-            hamburger.classList.remove('hidden');
-        }
+
