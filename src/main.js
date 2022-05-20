@@ -15,7 +15,7 @@ import Riskfree from './components/case-studies/riskfree/RiskFree.vue'
 import Spotify from './components/case-studies/spotify/Spotify.vue'
 
 
-// Get length of character path animate with SVG and CSS
+// Get length of character path to animate with SVG and CSS
 const casestudy = document.querySelectorAll("#case-study path");
 for(let i = 0; i<casestudy.length; i++) {
   console.log(`Letter ${i} is ${casestudy[i].getTotalLength()}`);
@@ -23,22 +23,13 @@ for(let i = 0; i<casestudy.length; i++) {
 
 // Preloader animation
 window.onload = function(){ 
-//  const preloader = document.querySelector('.preloader')
+  const preloader = document.querySelector('.preloader')
   preloader.classList.add('animate__animated')
-//  preloader.classList.add('animate__fadeOut')
+  preloader.classList.add('animate__fadeOut')
 
   document.querySelector('body').style.overflowY = 'scroll';
 }   
-// Hamburger menu
-const hamburger = document.querySelector('.hamburger');
-function openNavbar() {
-  hamburger.classList.remove('hidden');
-  hamburger.classList.add('animate__fadeInRightBig');
-  hamburger.classList.remove('animate__fadeOutRightBig')
-}
-function closeNavbar() {
-  hamburger.classList.add('animate__fadeOutRightBig');
-}
+
 
 
 // Router init
