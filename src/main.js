@@ -5,6 +5,7 @@ import 'animate.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { gsap } from "gsap";
+import Typed from 'typed.js';
 
 // Router components
 
@@ -26,11 +27,16 @@ window.onload = function(){
 //  const preloader = document.querySelector('.preloader')
   preloader.classList.add('animate__animated')
   preloader.classList.add('animate__fadeOut')
-
   document.querySelector('body').style.overflowY = 'scroll';
 }   
 
+// Typing animation
+var options = {
+  strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+  typeSpeed: 40
+};
 
+var typed = new Typed('.element', options);
 
 // Router init
 Vue.use(VueRouter);

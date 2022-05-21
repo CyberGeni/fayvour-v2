@@ -1,67 +1,25 @@
 <template>
-    <main class="preloader absolute bg-white left-0 top-0 w-screen h-screen overflow-hidden flex items-center justify-center">
-        <h2 data-text="Loading...">Loading...</h2>
+    <main class="font-['Cabinet_Grotesk'] preloader absolute bg-neutral-800 text-neutral-200 z-10 left-0 top-0 w-screen h-screen overflow-hidden flex items-center justify-center"> 
+        <section>
+            <div class="outer-box h-16 w-40 p-5 z-[-100] overflow-hidden border-0 flex-col bg-neutral-900 relative flex items-center justify-center bg-neutral-900">  
+                <div class="rod absolute"></div>     
+                <h2 class="absolute bg-neutral-800 font-bold text-xl px-9 py-4 md:text-3xl tracking-wider">Loading...</h2>
+            </div>    
+        </section>
     </main>
 </template>
 <style scoped>
-* {
-    margin: 0;
-    padding: 0;
-}
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(27, 40, 70);
-    width: 100%;
-    height: 100vh;
-    z-index: 1000;
-}
-.outer-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(5, 16, 42);
-    width: 300px;
-    height: 450px;
-    border: none;
-    border-radius: 10px;
-    overflow: hidden;
-    z-index: -100;
-    transform: rotate(90deg);
-}
+
+
 .outer-box::before {
     content: '';
     position: relative;
     background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
-    width: 150px;
-    height: 580px;
+    width: 10px;
+    height: 80px;
     overflow: hidden;
     transform: rotate(360deg);
     animation: animate 4s linear infinite;
-}
-.inner-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    text-align: center;
-    background-color: rgb(27, 40, 70);
-    width: 280px;
-    height: 430px;
-    border: none;
-    border-radius: 4px;
-    z-index: 100;
-    font-size: 35px;
-    font-weight: 700;
-    font-family: 'Archivo', 'Segoe UI', Tahoma, Verdana, sans-serif;
-    color: white;
-}
-.inner-box h1 {
-    transform: rotate(270deg);
-}
-h3 {
-    transform: rotate(270deg);
 }
 @keyframes animate {
     0% {
