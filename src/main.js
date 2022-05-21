@@ -23,7 +23,7 @@ for(let i = 0; i<casestudy.length; i++) {
 
 // Preloader animation
 window.onload = function(){ 
-  const preloader = document.querySelector('.preloader')
+//  const preloader = document.querySelector('.preloader')
   preloader.classList.add('animate__animated')
   preloader.classList.add('animate__fadeOut')
 
