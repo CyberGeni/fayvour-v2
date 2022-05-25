@@ -24,19 +24,17 @@ for(let i = 0; i<casestudy.length; i++) {
 
 // Preloader animation
 window.onload = function(){ 
-//  const preloader = document.querySelector('.preloader')
+//forf  const preloader = document.querySelector('.preloader')
   preloader.classList.add('animate__animated')
   preloader.classList.add('animate__fadeOut')
   document.querySelector('body').style.overflowY = 'scroll';
 }   
 
 // Typing animation
-var options = {
-  strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
-  typeSpeed: 40
-};
+var typed = new Typed('#typed', {
+  stringsElement: '#typed-strings'
+});
 
-var typed = new Typed('.element', options);
 
 // Router init
 Vue.use(VueRouter);
