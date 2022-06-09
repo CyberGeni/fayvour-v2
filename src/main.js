@@ -5,7 +5,7 @@ import 'animate.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { gsap } from "gsap";
-import Typed from 'typed.js';
+
 
 // Router components
 
@@ -24,17 +24,11 @@ for(let i = 0; i<casestudy.length; i++) {
 
 // Preloader animation
 window.onload = function(){ 
-//forf  const preloader = document.querySelector('.preloader')
+//   const preloader = document.querySelector('.preloader')
   preloader.classList.add('animate__animated')
   preloader.classList.add('animate__fadeOut')
   document.querySelector('body').style.overflowY = 'scroll';
 }   
-
-// Typing animation
-var typed = new Typed('#typed', {
-  stringsElement: '#typed-strings'
-});
-
 
 // Router init
 Vue.use(VueRouter);
