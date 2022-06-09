@@ -9,7 +9,7 @@
         <router-view></router-view>
       </transition>
       
-      <hr>
+      <hr class="relative z-[-1] opacity-20">
       <footer class="font-['Cabinet_Grotesk']">
         <h1 class="text-white text-4xl mt-16 md:mt-24 mb-10 md:mb-16">Got an interesting project idea? I can help you.</h1>
         <section class="md:flex items-end justify-between">
@@ -71,8 +71,6 @@ export default {
     overflow: hidden;
   }
 
-  hr {
-    opacity: 0.2;
-  }
+ 
   
 </style>
