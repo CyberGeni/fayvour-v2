@@ -8,7 +8,7 @@
                 <div></div>
                 <div></div>
             </span> 
-            <p><slot name="icon"><i class="fas fa-spinner fa-pulse"></i></slot> {{message}}</p>
+            <p>{{message}}</p>
         </section>
     </main>
 </template>
@@ -19,12 +19,12 @@
             return {
                 messages: [
                     "Locating the required gigapixels to render...",
-                    "compiling case studies..."
-                    "go ahead -- hold your breath",
-                    "at least you're not on hold",
-                    "hum something loud while others stare",
-                    "as if you had any other choice",
-                    "it's still faster than you could draw it",
+                    "compiling case studies...",
+                    "go ahead -- hold your breath...",
+                    "at least you're not on hold...",
+                    "hum something loud while others stare...",
+                    "as if you had any other choice...",
+                    "it's still faster than you could draw it...",
                     "Do you suffer from ADHD? Me neith- oh look a bunny... What was I doing again? Oh, right. Here we go.",
                     "The version I have of this in testing has much funnier load screens.",
                     "I think we're gonna need a new internet to load this page...",
@@ -90,8 +90,18 @@
 </script>
 
 <style scoped>
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+}
 .waterfall {
     display: flex;
+    margin: 1em auto
 }
 .waterfall > * + * {
   margin-left: 0.25rem;
