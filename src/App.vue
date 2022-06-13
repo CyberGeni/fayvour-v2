@@ -26,7 +26,7 @@
           </div>
           <div class="text-neutral-400 text-xs mt-4 text-right">
             <p>designed by yours truly</p>
-            <p>devved by your friendly neighborhood <a class="underline decoration-2 underline-offset-2" href="https://linktr.ee/cybergenie" target="_blank">cyberGenie</a></p>
+            <p>devved by your friendly neighborhood <a class="underline decoration-2 underline-offset-2" href="https://api.whatsapp.com/send?phone=2349098746099&text=Hi%20Treasure.%20I%20saw%20the%20site%20you%20made%20for%20Fayvour,%20it%20looks%20awesome.%20I'd%20like%20you%20to%20create%20a%20website%20for%20me%20too." target="_blank">cyberGenie</a></p>
           </div>
         </section>
         <p class="text-center text-sm text-neutral-400 my-4 mb-8 font-bold">&copy;2022 portfolio</p>
