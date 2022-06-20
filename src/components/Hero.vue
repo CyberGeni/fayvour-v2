@@ -1,4 +1,4 @@
-<template>
+<template class="hero">
     <main class="font-['Cabinet_Grotesk'] text-neutral-400 flex flex-col justify-center w-full">
       <section class="flex flex-col justify-center h-[85vh] ">
         <div>

@@ -31,6 +31,8 @@ window.onload = function(){
   document.querySelector('body').style.overflowY = 'scroll';
 }   
 
+
+
 // Router init
 Vue.use(VueRouter);
 const router = new VueRouter({
