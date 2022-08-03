@@ -59,7 +59,7 @@
               <path d="M652.962 94C668.326 94 677.526 85.444 680.286 66.124L686.174 24.908L684.518 23.62L680.654 25.644C676.514 24.448 673.386 23.896 670.718 23.896C654.618 23.896 641.278 37.788 641.278 54.992C641.278 65.112 645.97 70.816 654.066 71.092C640.266 74.956 635.39 78.176 635.39 83.236C635.39 89.86 642.198 94 652.962 94ZM657.378 64.744C653.514 64.744 651.122 60.972 651.122 54.624C651.122 40.916 659.77 29.508 669.706 27.852C671.73 28.312 673.938 29.048 676.514 30.428C673.202 48.368 664.002 64.744 657.378 64.744ZM653.974 89.952C648.914 89.952 645.51 87.1 645.51 82.96C645.51 79.648 647.442 78.268 654.894 74.22C658.942 72.012 661.702 69.712 664.554 66.308C667.774 62.444 670.902 57.66 673.478 50.852L674.214 51.22L671.454 68.056C669.062 82.684 663.082 89.952 653.974 89.952Z" stroke="#23252E" stroke-width="3.28" mask="url(#path-1-outside-1_11_2)"/>
             </svg>
 
-            <p class="max-w-fit my-4 text-2xl">Research, execution and <span class="something-fancy text-2xl font-medium">something fancy</span>  are the three pillars of my work. I'm a problem solver who thrives in pushing boundaries and redefining what's possible through human-centered design.</p>
+            <p class="max-w-2xl my-4 text-2xl">Research, execution and <span class="something-fancy text-2xl font-medium">something fancy</span>  are the three pillars of my work. I'm a problem solver who thrives in pushing boundaries and redefining what's possible through human-centered design.</p>
           </div>
         </div>
       
@@ -71,6 +71,8 @@
 </template>
 <style scoped>
 .something-fancy {
+  font-size: 1.5rem; /* 24px */
+line-height: 2rem; /* 32px */
   font-size: 18px;
   background: -webkit-linear-gradient(45deg, #7a94ef, #da0dec);
   -webkit-background-clip: text;
