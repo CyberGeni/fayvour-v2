@@ -1,6 +1,6 @@
 <template>
     <header class="relative font-['Cabinet_Grotesk'] z-100 h-28 flex justify-between items-center text-white font-lg">
-        <router-link to="/">fayv.</router-link>
+        <router-link to="/" class="font-bold">favour ajefu</router-link>
         <nav  class="hamburger cursor-pointer animate__animated hidden sm:flex items-center justify-center relative overflow-hidden bg-neutral-800 sm:bg-transparent bg-image[url('src/assets/noise.svg)] h-screen sm:h-fit top-0 left-0 right-0 w-screen sm:w-fit mt-auto sm:mt-0 -ml-32 mr-[-7.5em] sm:mx-0">
             <ul class="overflow-hidden text-center space-y-16 sm:space-y-0 h-screen sm:h-fit  flex flex-col sm:flex-row items-center justify-center ">
                 <li onclick="closeNavbar()" class="absolute top-16 right-20 sm:hidden">
@@ -15,9 +15,9 @@
                 <li onclick="closeNavbar()" class="sm:ml-6">
                     <router-link to="/resume">resume.</router-link>
                 </li>
-                <li onclick="closeNavbar()" class="sm:ml-6">
+                <!-- <li onclick="closeNavbar()" class="sm:ml-6">
                     <a class="text-white " target="_blank" href="https://fayvouraj.medium.com/">blog.</a>
-                </li>
+                </li> -->
             </ul>
         </nav>
         <div class="justify-center space-y-1 sm:hidden flex flex-col items-end toggleButton" onclick="openNavbar()">
