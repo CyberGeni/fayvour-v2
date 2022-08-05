@@ -32,14 +32,14 @@
                 </svg>
             </div>
         </div>
-        <div class="cases grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-3 mx-auto gap-24">
+        <div class="cases grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 mx-auto gap-24">
           
             <section  class="sm:skewElem lazy"  v-for="casestudy in cases" :key="casestudy.id">
                 <router-link  :to="casestudy.link" class=""> 
                     <img class="skewElem" :src="casestudy.image" :alt="casestudy.description" />
                     <div class="flex justify-between items-center my-5">
                         <h2 class="text-neutral-200 text-3xl md:text-4xl md:text-5xl">{{casestudy.title}}</h2>
-                        <span class="text-white bg-neutral-500 rounded-full px-3 sm:px-4 md:px-5 py-1 text-sm">{{casestudy.tag}}</span>
+                        <span class="text-white bg-[#063B59] rounded-full px-3 md:px-5 py-1 text-sm">{{casestudy.tag}}</span>
                     </div>
                     <div class="flex">
                         <p class="text-neutral-400 mr-8">{{casestudy.description}}</p> 
