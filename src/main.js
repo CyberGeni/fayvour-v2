@@ -13,6 +13,7 @@ import Home from './components/Home.vue'
 import About from './components/About.vue'
 import Resume from './components/Resume.vue'
 import Riskfree from './components/case-studies/riskfree/RiskFree.vue'
+import Koyata from './components/case-studies/koyata/koyata.vue'
 import Spotify from './components/case-studies/spotify/Spotify.vue'
 
 
@@ -43,6 +44,7 @@ const router = new VueRouter({
     {path: '/resume', component: Resume},
 
     // mediocre routing of project information components
+    {path: '/koyata', component: Koyata},
     {path: '/riskfree', component: Riskfree},
     {path: '/spotify', component: Spotify},
   ],
