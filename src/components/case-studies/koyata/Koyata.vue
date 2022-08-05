@@ -56,38 +56,52 @@
         </section>
 
         <section class="my-12">
-            <h3 class="text-neutral-200 text-xl font-bold mb-4">finding pain points</h3>
-            <p class="my-4 text-lg leading-relaxed font-normal">From the responses I received from the interview participants, I was able to create an empathy map using the Think-Say-Feel-Do model.
-This helped me determine their pain points.</p>
-            <div>
-                <img class="mx-auto w-full max-w-2xl" src="/src/assets/riskfree_painpoints.svg" alt="">
+            <h3 class="text-neutral-200 text-xl font-bold mb-4">quantitative research.</h3>
+            <p class="my-4 text-lg leading-relaxed font-normal">Armed with the languages people often use to learn languages, i proceeded to carry out quantitative research on potential users in the age bracket i was aiming to reach. I drafted some questions that would provide insights and sent them out to online communities of young people using Google Forms. </p>
+            <div class="bg-white pl-8 py-6 my-12">
+                <h1 class="text-[#0D56C2] text-3xl font-bold my-8">survey results (metrics)</h1>
+                <div class="grid grid-cols-2 sm:grid-cols-4">
+                    <img src="/src/assets/koyata/metrics-1.svg" alt="">
+                    <img src="/src/assets/koyata/metrics-2.svg" alt="">
+                    <img src="/src/assets/koyata/metrics-3.svg" alt="">
+                    <img src="/src/assets/koyata/metrics-4.svg" alt="">
+                </div>
+                <p class="text-right mr-14">*About 90% of the audience were within ages 15-26. <br>40% of them had not used any language learning application prior to to the survey. <br> Percentages are most selected responses.</p>
             </div>
+
+            <div class="bg-white p-8 my-12">
+                <h1 class="text-[#0D56C2] text-3xl font-bold my-8">survey results (pain-points)</h1>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <img src="/src/assets/koyata/pain-points-1.svg" alt="">
+                    <img src="/src/assets/koyata/pain-points-2.svg" alt="">
+                </div>
+            </div>
+            
         </section>
         <section class="my-12">
             <h3 class="text-neutral-200 text-xl font-bold mb-4">creating a persona</h3>
-            <p class="my-4 text-lg leading-relaxed font-normal">To better understand and put into perspective of what sort of people I was designing for, I created a user persona</p>
+            <p class="my-4 text-lg leading-relaxed font-normal">Referencing my user research, i wanted to create a user persona that helped me look at the people i was designing for from from a holistic point of view. This persona would represent my users and help me stay on track while considering their goals and pain points.</p>
             
                 <div class="flex items-center justify-evenly flex-col mx-auto my-6 max-w-3xl sm:flex-row bg-[#1B1B1B] p-8 rounded-lg">
                     <div class="my-6 sm:my-0">
-                        <img class="rounded-full mx-auto my-3" src="/src/assets/riskfree/tony-starkt.svg" alt="">
-                        <h1 class="text-3xl text-white my-3 font-semibold">Tony Starkt, 21</h1>
-                        <h4 class="text-xl">Student</h4>
-                        <h4 class="text-xl">Lagos, Nigeria</h4>
+                        <img class="rounded-full mx-auto my-3" src="/src/assets/koyata/akanbi-michael.svg" alt="">
+                        <h1 class="text-3xl text-white my-3 font-semibold">Akanbi Michael, 21</h1>
+                        <h4 class="text-xl text-center">Student and Fashion Designer</h4>
+                        <h4 class="text-xl text-center">Lagos, Nigeria</h4>
                     </div>
 
                     <div class="sm:border-l-2 sm:border-neutral-500 sm:pl-8 sm:ml-8">
-                        <h3 class="text-white font-semibold my-3">MAJOR WORRY CAUSES</h3>
-                        <p>Work, Education</p>
                         <h3 class="text-white font-semibold my-3">CHALLENGES</h3>
                         <ul class="list-disc ml-5">
-                            <li>He doesn't get as much people patronizing his work</li>
-                            <li>He has extreme pressure from parents to do well at school</li>
+                            <li>Fares badly in Yoruba in class</li>
+                            <li>Doesn't understand what his Yoruba friends say most of the time</li>
+                            <li>Can'y interact with customers that primarily speak Yoruba</li>
                         </ul>
                         <h3 class="text-white font-semibold my-3">GOALS</h3>
                         <ul class="list-disc ml-5">
-                            <li>Wants to be happy and forget his problems</li>
-                            <li>Wants to be able to write down thoughts</li>
-                            <li>Wants to be aware of when exactly he is overthinking</li>
+                            <li>Wants to be able to speak Yoruba like a natural</li>
+                            <li>Wants to be able to quickly check the translation of words</li>
+                            <li>Wants to be involved and engaged while learning</li>
                         </ul>
                     </div>
                 </div>
@@ -95,39 +109,50 @@ This helped me determine their pain points.</p>
         </section>
 
         <section class="my-12">
-            <h3 class="text-neutral-200 text-xl font-bold mb-4">cracking the "how might we" questions</h3>
-            <p class="my-3 text-lg leading-relaxed font-normal">Based on the user's pain points, I asked myself the 'how might we' questions to help me see clearly, ,important isses that needed addressing.</p>
-            <p class="my-2 text-lg leading-relaxed font-normal">How might we:</p>
-            <ul class="my-3 mx-8 list-disc">
-                <li class="text-neutral-300">Detect that the user is overthinking?</li>
-                <li class="text-neutral-300">Help the user to feel calm within the app?</li>
-                <li class="text-neutral-300">Calm the user down if the result of the analysis says the user is overthinking?</li>
+            <h3 class="text-neutral-200 text-xl font-bold mb-4">how might i use koyata to set the pace for digital language learning in Nigeria?</h3>
+            <ul class="my-3 mx-8 list-decimal">
+                <li class="text-neutral-300">Language learning apps need to prioritize motivating users to learn the language while alse adequately providing intersctive course content for learners.</li>
+                <li class="text-neutral-300">Nigeria places its history and tradition in high esteem. Many of these are being passed down from parent to children while growing up. Considering most of the survey participants didn't get  the chance to learn, I had to look for a way to include a fix.</li>
+                <li class="text-neutral-300">Users should be able too look up new words that they come in contact with easily.</li>
+                <li class="text-neutral-300">Totally new users have voice rooms to help give new users first hand experience to hear the language been spoken and accustomed to the environment.</li>
             </ul> 
-            <p class="my-3">I jotted down a lot of ideas as they came. I did some research and discovered that <span class="gradient-text">Cortisol, a hormone in the body, is responsible for stress. </span>Overthinking causes mental stress and as such...</p>
-            <div class="bg-[#1B1B1B] rounded-lg p-8 my-6 mx-auto max-w-xl font-bold text-lg ">"if i could track changes in cortisol levels, i could help the wearer detect overthinking and inform them with a beep."</div>
-            <p>After considering the watch features , and seeing other apps which did something similar, i was able to brainstorm on possible features the app could have. I then used a prioritization grid to find out must have features and which should be most pronounced within the smartwatch and app interface.</p>
+            
+            <div class="bg-[#1B1B1B] rounded-lg p-8 my-6 mx-auto max-w-xl font-bold text-lg ">The goal for my design was to design an interactive, gamified experience that educated users not only on the language but also on the histories of their people.</div>
+            <p>After considering the watch features, and seeing other apps which did something similar, i was able to brainstorm on possible features the app could have. I then used a prioritization grid to find out must have features and which should be most pronounced within the smartwatch and app interface.</p>
         </section>
         <section class="my-12">
-            <h3 class="text-neutral-200 text-xl font-bold mb-4">flows and sketches</h3>
-            <div>
-                <h3 class="text-center font-semibold text-lg text-white">INFORMATION ARCHITECTURE</h3>
-                <img class="mx-auto my-7 w-full max-w-2xl" src="/src/assets/riskfree_informationarchitecture.svg" alt="">
+            <h3 class="text-neutral-200 text-xl font-bold mb-4">drawing flows.</h3>
+            <p class="my-4 text-lg leading-relaxed font-normal">Next... i proceeded to draw flows to illustrate what a typical user journey through the experience would be like. I started from the main functionality and then drew one for the entire exoerience.</p>
+            <figure>
+               <img src="/src/assets/koyata/flow.svg" alt=""> 
+               <figcaption class="text-center">flow for a user starting a new lesson.</figcaption>
+            </figure>
+            
+            <img class="mx-auto my-7 w-full max-w-2xl" src="/src/assets/koyata/information-architecture.svg" alt="">
+            
+        </section>
+
+        <section class="my-12">
+            <h3 class="text-neutral-200 text-xl font-bold mb-4">lo-fi wireframes and iterations</h3>
+            <p class="my-4 text-lg leading-relaxed font-normal">I started the visual design process by putting together lo-fi designs of the product and performing few tests on users, thereby getting eatly feedback on what users thought about layouts and other vital components. </p>
+            <img class="mx-auto my-7 w-full max-w-2xl" src="/src/assets/koyata/lofi-wireframes.svg" alt="">
+            
+        </section>
+        <section class="my-12">
+            <h3 class="text-neutral-200 text-xl font-bold mb-4">visual design</h3>
+            <p class="my-4 text-lg leading-relaxed font-normal">After plenty iterations based on user feedback, I was ready to start adding colour. I thought about the personality of the brand, the emotions i’ts supposed to evoke in my users and was able to put together a moodboard to guide my visual design perspective. </p>
+            <div class="grid gap-4 sm:grid-cols-2 max-w-3xl mx-auto mt-6">
+                <img src="/src/assets/koyata/visual-design-1.svg" alt="">
+                <img src="/src/assets/koyata/visual-design-2.svg" alt="">
             </div>
         </section>
-        <section class="my-12">
-            <h3 class="text-neutral-200 text-xl font-bold mb-4">usability testing</h3>
-            <p class="my-4 text-lg leading-relaxed font-normal">I gave the prototype to several people to see their thoughts on the app and give complaints too.
-All of them were able to complete tasks without difficulty.</p>
+        <section>
+            <img src="/src/assets/koyata/brand-guidelines.svg" alt="">
         </section>
         <section class="my-12">
-            <h3 class="text-neutral-200 text-xl font-bold mb-4">conclusion and takeaways</h3>
-            <p class="my-4 text-lg leading-relaxed font-normal">This was a very interesting project to work on. I’d like to add that at the time of writing this case study, there is currently no smart watch that tracks cortisol levels, so the idea is purely hypothetical.
-It made me step out of my comfort zone so i could understand people better and come up with a solution that would suit their needs. I learnt that a designer’s job goes beyond delighting users. It also involves bringing value. 
-
-For further iteration, i would like to further explore ways of using technology to reduce overthinking and explore better ways of presenting the data.</p>
+            <h3 class="text-neutral-200 text-xl font-bold mb-4">final thoughts and learnings.</h3>
+            <p class="my-4 text-lg leading-relaxed font-normal">This project made me learn a lot about Gamification and it’s importance in Product Design. Gamification generally is a strong tool which when used properly, could yield really good results for both the users, and the product as well. For my next steps i’d love to explore better ways to introduce improve social interaction within the application. </p>
         </section>
-
-
         <section class="flex justify-between py-6 border-t-2 border-neutral-700">
             <router-link to="" class="flex items-center text-base font-bold sm:text-lg md:text-xl lg:text-2xl"><!--<img class="w-7 sm:w-10 rotate-180 mr-2" src="/src/assets/arrow.svg" alt="">--></router-link> 
             <router-link to="/spotify" class="flex items-center text-base font-bold sm:text-lg md:text-xl lg:text-2xl">spotify:lyrics and karaoke <img class="w-7 sm:w-10 ml-2" src="/src/assets/arrow.svg" alt=""></router-link>
