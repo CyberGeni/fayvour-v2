@@ -57,7 +57,7 @@ This helped me determine their pain points.</p>
             <h3 class="text-neutral-200 text-xl font-bold mb-4">creating a persona</h3>
             <p class="my-4 text-lg leading-relaxed font-normal">To better understand and put into perspective of what sort of people I was designing for, I created a user persona</p>
             
-                <div class="flex items-center justify-evenly flex-col mx-auto my-6 max-w-3xl sm:flex-row bg-[#1B1B1B] p-8 rounded-lg">
+                <div class="flex items-center justify-evenly flex-col mx-auto my-6 max-w-4xl sm:flex-row bg-[#1B1B1B] p-10 px-14 rounded-lg">
                     <div class="my-6 sm:my-0">
                         <img class="rounded-full mx-auto my-3" src="/src/assets/riskfree/tony-starkt.svg" alt="">
                         <h1 class="text-3xl text-white my-3 font-semibold">Tony Starkt, 21</h1>
@@ -116,6 +116,13 @@ It made me step out of my comfort zone so i could understand people better and c
 
 For further iteration, i would like to further explore ways of using technology to reduce overthinking and explore better ways of presenting the data.</p>
         </section>
+
+
+        <section class="flex justify-between py-6 border-t-2 border-neutral-700">
+            <router-link to="/koyata" class="flex items-center text-base font-bold sm:text-lg md:text-xl lg:text-2xl"><img class="w-7 sm:w-10 rotate-180 mr-2" src="/src/assets/arrow.svg" alt="">koyata</router-link>
+            <router-link to="/spotify" class="flex items-center text-base font-bold sm:text-lg md:text-xl lg:text-2xl">spotify:lyrics and karaoke <img class="w-7 sm:w-10 ml-2" src="/src/assets/arrow.svg" alt=""></router-link>
+        </section>
+
     </main>
     </transition>
 </template>

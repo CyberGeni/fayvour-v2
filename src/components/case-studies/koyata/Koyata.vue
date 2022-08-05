@@ -126,6 +126,12 @@ It made me step out of my comfort zone so i could understand people better and c
 
 For further iteration, i would like to further explore ways of using technology to reduce overthinking and explore better ways of presenting the data.</p>
         </section>
+
+
+        <section class="flex justify-between py-6 border-t-2 border-neutral-700">
+            <router-link to="" class="flex items-center text-base font-bold sm:text-lg md:text-xl lg:text-2xl"><!--<img class="w-7 sm:w-10 rotate-180 mr-2" src="/src/assets/arrow.svg" alt="">--></router-link> 
+            <router-link to="/spotify" class="flex items-center text-base font-bold sm:text-lg md:text-xl lg:text-2xl">spotify:lyrics and karaoke <img class="w-7 sm:w-10 ml-2" src="/src/assets/arrow.svg" alt=""></router-link>
+        </section>
     </main>
     </transition>
 </template>
